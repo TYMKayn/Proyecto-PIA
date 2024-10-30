@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <header>
+        <div class="Contenedor">
+          <div id="marca">
+            <h1><span class="resultado">I.E Lopez</span></h1>
+                <img src="logos/lopezm.jpg" alt="" width="100px" height="100px">
+                
+            </div>
+            <div id="sub">
+                <h2><span class="resultado">Pagina informativa</span></h2>
+            </div>
+          </div>  
+          <nav>
+            <ul>
+                <li class="actual"> <a href="index.html">Inicio</a></li>
+                <li class="actual"> <a href="unirse.html">unirse</a></li>
+                <li class="actual"><a href="equipo.html">Equipo</a></li>
+                <li class="actual"> <a href="contacto.html">Contactos</a></li>
+            </ul>
+          </nav>
+    </header>
+    <!--Formulario-->
+    <form action="" method="">
+        <section>
+            <div id="section1">
+                <h1>Formulario</h1>
+            </div>
+        </section>
+        <table class="formu">
+            
+            <tr>
+                <td>
+                    <label for="name">Nombre:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Coloque su nombre" maxlength="10" required name="name" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lastname">Apellido</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Apellido solo lectura" maxlength="13" required name="lastname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Edad</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Edad" maxlength="2" required name="age">  
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="Correo electrónico" required name="email" id="email">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="description">Sugrencias</label>
+                </td>
+                <td>
+                    <textarea name="description" placeholder="Escriba sus sugerencias" id="description" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="study">Grado</label>
+                </td>
+                <td>
+                    <select name="study" id="study">
+                        <option>Seleccione su grado</option>
+                        <option value="Noveno">Noveno</option>
+                        <option value="Decimo">Decimo</option>
+                        <option value="Once">Once</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Género</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="man" id="man">
+                    <label for="man">Hombre</label> 
+                    <input type="radio" name="gender" value="woman" id="woman">
+                    <label for="woman">Mujer</label>
+                </td>
+            </tr>
+            </table>
+            <table class="boton">
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="clear">
+                </td>
+            </tr>
+        
+        </table>
+    </form>
+
+<!--FOOTER-->
+<section id="footer"> 
+    <p>Todos los derechos reservados</p> 
+    <p>Redes sociales</p> 
+    <div class="footer-links">
+      <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://www.youtube.com/">YouTube</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.luislopezdemesa.edu.co/">Institución</a></li>
+      </ul> 
+    </div> 
+    <div class="footer-infor"> 
+    </div> 
+  </section> 
+</body>
+</html>

@@ -1,0 +1,132 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+body{
+    background-color:black(206, 242, 248);
+}
+
+header  {
+    display: flex;
+    background-color: #46a2fd;
+    color: #000000;
+    padding-top: 5px;
+    min-height: 7px;
+    border-bottom: 15px solid black;
+    justify-content: space-between
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #marca {
+    float: left;
+    font-size:45PX
+    
+
+}
+
+header #marca h1 {
+    margin: 0px;
+    float: right;
+    
+}
+header #sub h2 {
+    margin: 0px;
+    float: right;
+}
+
+
+header.resultado,
+header.actual a {
+    color: #85c1e9;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+#marca{
+    font-size: 45px;
+}
+#section1{
+    display: flex;
+    justify-content: center;
+}
+.formu{
+    display: flex;
+    margin-top: 500px;
+    justify-content: center;
+    background-color:#85c1e9;
+    margin: 0 auto;
+    text-align: center;
+    height: 450px;
+    width: 500px;
+    border-radius: 9px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.699);
+}
+.boton{
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 35px;
+    
+    
+    cursor: pointer;        
+}
+
+
+#footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+.footer-links a {
+    color: #85c1e9;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #00a2ff;
+    text-decoration: underline;
+}
+
+.footer-infor {
+    margin-top: 10px;
+}

@@ -1,0 +1,131 @@
+body{
+    font-family: sans-serif;
+    /*background-color: rgb(171, 164, 164);*//*en proceso*/
+   
+    margin: 0px;
+}
+body{
+    background-color:black(206, 242, 248);
+}
+header  {
+    display: flex;
+    background-color: #46a2f2;
+    color: #000000;
+    padding-top: 5px;
+    min-height: 7px;
+    border-bottom: 15px solid black;
+    justify-content: space-between
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #marca {
+    float: left;
+    font-size:45PX
+    
+
+}
+
+header #marca h1 {
+    margin: 0px;
+    float: right;
+    
+}
+header #sub h2 {
+    margin: 0px;
+    float: right;
+}
+
+
+header.resultado,
+header.actual a {
+    color: #5dade2;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+#marca{
+    font-size: 45x;
+}
+
+#imagen{
+    border: 5px solid;
+    border-radius: 15px;
+    height: 450px;
+    padding-top: 50px;
+    margin-left: 545px;
+    margin-top: 50px;
+    width: 450px;
+    text-align: center;
+    background-color: #85c1e9;
+    box-shadow: 0 20px 40px rgba(47, 107, 125, 0.699);
+    
+}
+
+#fondo{
+    text-align: center;
+    margin-top: 5px;
+}
+
+#footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 15px; 
+}
+
+.footer-links a {
+    color: #85c1e9;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #00a2ff;
+    text-decoration: underline;
+}
+
+.footer-infor {
+    margin-top: 10px;
+}
+
+#fondo{
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+}
